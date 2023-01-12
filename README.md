@@ -21,3 +21,8 @@ Use Default VPC
 12. Under **Connectivity**, **Database authentication**, **Monitoring** keep all defaults
 13. Choose **Create database**
 
+**modify the inbound rules on the security group that's attached to your RDS instance**
+
+1. Choose the name of your DB instance to view its details
+2. In the **Connectivity** section, make a note of the Subnets, Security groups, and Endpoint that are displayed on this page
+3. 
