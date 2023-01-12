@@ -27,10 +27,21 @@ Use Default VPC
 2. In the **Connectivity** section, make a note of the Subnets, Security groups, and Endpoint that are displayed on this page
 3. Under **Security**, you can see the security group that's associated with the DB instance. Open the link to view the security group in the Amazon EC2 console
 4. In the security group details, choose **Inbound rules**
-5. Choose **Edit**
+5. Choose **Edit inbound rules**
 6. Choose **Add Rule**
 7. For **Type**, choose the DB engine that your application uses
 8. For **Source**, type **sg-** to view a list of available security groups. Choose the security group that's associated with the Auto Scaling group that's used with your Elastic Beanstalk environment. This is so that Amazon EC2 instances in the environment can have access to the database
 9. Choose **Save**
+
+**Download WordPress**
+
+1. Open the EC2 console **https://us-east-1.console.aws.amazon.com/ec2/**
+2. Choose **Launch instance**
+3. Under **Name and tags**, type **Linux Server**
+4. Under **Application and OS Images (Amazon Machine Image)** select, **Amazon Linux** - **Amazon Linux 2 Kernel 5.10 AMI 2.0.20221210.1 x86_64 HVM gp2 - 64-bit (x86)**
+5. Under **Instance type** select, **t2.micro**
+6. Under **Key pair (login**, select key pair
+7. Keep all other defaults
+8. Choose **Launch Instance**
 
 
