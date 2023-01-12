@@ -21,7 +21,7 @@ Use Default VPC
 12. Under **Connectivity**, **Database authentication**, **Monitoring** keep all defaults
 13. Choose **Create database**
 
-**Download WordPress**
+**Create Linux Instance**
 
 1. Open the EC2 console **https://us-east-1.console.aws.amazon.com/ec2/**
 2. Choose **Launch instance**
@@ -33,19 +33,21 @@ Use Default VPC
 8. Choose **Launch Instance**
 9. Select **Instance** and **Connect**
 
-10. Download WordPress from wordpress.org
+**Download WordPress**
+
+1. Download WordPress from wordpress.org
 
 ![image](https://user-images.githubusercontent.com/91480603/212140151-84b9a480-af9d-496e-97e4-bcdbb8025531.png)
 
-11. Download the configuration files from the sample repository
+2. Download the configuration files from the sample repository
 
 ![image](https://user-images.githubusercontent.com/91480603/212140220-0c6157ad-3c89-4015-8585-67ce0426f5c1.png)
 
-12. Extract WordPress and change the name of the folder
+3. Extract WordPress and change the name of the folder
 
 ![image](https://user-images.githubusercontent.com/91480603/212140276-4775efcb-21a9-442f-9dcd-f21cec47334d.png)
 
-13. Extract the configuration files over the WordPress installation
+4. Extract the configuration files over the WordPress installation
 
 ![image](https://user-images.githubusercontent.com/91480603/212140354-879fe60e-0e65-4f1b-a266-3d9898b5a44e.png)
 
@@ -115,12 +117,16 @@ Each platform runs a specific set of software, configuration files, and scripts 
 
 **Configure and deploy your application**
 
+Login to Linux Instance with WordPress installed
+
 **Install tree**
 yum install tree
 
 1. Verify that the structure of your wordpress-beanstalk folder is correct, as shown
 
 **tree -aL 1**
+
+**To update configuration files and create a source bundle**
 
 
 
