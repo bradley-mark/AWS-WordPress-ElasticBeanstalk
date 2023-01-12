@@ -111,10 +111,16 @@ Each platform runs a specific set of software, configuration files, and scripts 
 3. In the navigation pane, choose **Configuration**
 4. In the **Software** configuration category, choose **Edit**
 5. In the **Environment properties** section, define the variables that your application reads to construct a connection string. For compatibility with environments that have an integrated RDS DB instance, use the following names and values. You can find all values, except for your password, in the RDS console
-
-
-
 6. Choose Apply
+
+**Configure and deploy your application**
+
+**Install tree**
+yum install tree
+
+1. Verify that the structure of your wordpress-beanstalk folder is correct, as shown
+
+**tree -aL 1**
 
 
 
