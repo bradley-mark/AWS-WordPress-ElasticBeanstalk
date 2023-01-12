@@ -63,7 +63,16 @@ Use Default VPC
 
 **Launch an Elastic Beanstalk environment**
 
-1. 
+1. Open the Elastic Beanstalk console using this preconfigured link:
+
+**https://console.aws.amazon.com/elasticbeanstalk/home#/newApplication?applicationName=tutorials&environmentType=LoadBalanced**
+
+2. For **Platform**, select the platform and platform branch that match the language used by your application
+3. For **Application code**, choose **Sample application**
+4. Choose **Review and launch**
+5. Review the available options. Choose the available option you want to use, and when you're ready, choose **Create app**
+
+
 
 
 
