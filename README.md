@@ -70,7 +70,7 @@ Use Default VPC
 4. Choose **Review and launch**
 5. Review the available options. Choose the available option you want to use, and when you're ready, choose **Create app**
 
-**<Elastic Beanstalk created resources>**
+**Elastic Beanstalk created resources**
   
 EC2 instance – An Amazon Elastic Compute Cloud (Amazon EC2) virtual machine configured to run web apps on the platform that you choose.
 
