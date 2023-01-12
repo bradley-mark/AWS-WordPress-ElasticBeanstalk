@@ -45,12 +45,13 @@ Use Default VPC
 8. Choose **Launch Instance**
 9. Select **Instance** and **Connect**
 10. Download WordPress from wordpress.org
-
+![image](https://user-images.githubusercontent.com/91480603/212140151-84b9a480-af9d-496e-97e4-bcdbb8025531.png)
 11. Download the configuration files from the sample repository
-
+![image](https://user-images.githubusercontent.com/91480603/212140220-0c6157ad-3c89-4015-8585-67ce0426f5c1.png)
 12. Extract WordPress and change the name of the folder
-
+![image](https://user-images.githubusercontent.com/91480603/212140276-4775efcb-21a9-442f-9dcd-f21cec47334d.png)
 13. Extract the configuration files over the WordPress installation
+![image](https://user-images.githubusercontent.com/91480603/212140354-879fe60e-0e65-4f1b-a266-3d9898b5a44e.png)
 
 **Launch an Elastic Beanstalk environment**
 
