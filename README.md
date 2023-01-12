@@ -70,6 +70,21 @@ Use Default VPC
 4. Choose **Review and launch**
 5. Review the available options. Choose the available option you want to use, and when you're ready, choose **Create app**
 
+**Configure security groups and environment properties**
+
+Add the security group of your DB instance to your running environment
+
+1. Open the Elastic Beanstalk console **https://console.aws.amazon.com/elasticbeanstalk**
+2. In the navigation pane, choose **Environments**, and then choose the name of your environment from the list
+3. In the navigation pane, choose **Configuration**
+4. In the **Instances** configuration category, choose **Edit**
+5. Under **EC2 security groups**, choose the security group to attach to the instances, in addition to the instance security group that Elastic Beanstalk creates
+6. Choose **Apply** at the bottom of the page
+7. Read the warning, and then choose **Confirm**
+
+**configure environment properties for an Amazon RDS DB instance**
+
+
 
 
 
