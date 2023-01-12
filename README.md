@@ -29,7 +29,7 @@ Use Default VPC
 4. In the security group details, choose **Inbound rules**
 5. Choose **Edit inbound rules**
 6. Choose **Add Rule**
-7. For **Type**, choose the DB engine that your application uses
+7. For **Type**, choose the DB engine that your application uses - Choose **MYSQL/Aurura**
 8. For **Source**, type **sg-** to view a list of available security groups. Choose the security group that's associated with the Auto Scaling group that's used with your Elastic Beanstalk environment. This is so that Amazon EC2 instances in the environment can have access to the database
 9. Choose **Save**
 
