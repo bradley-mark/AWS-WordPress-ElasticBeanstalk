@@ -14,4 +14,8 @@ Use Default VPC
 4. Choose **Standard Create**
 5. Choose Engine options: **Amazon Aurora** - edition **Amazon Aurura MySQL-Compatible Edition** **Aurora (MySQL 5.7) 2.10.2**
 6. Choose Templates - **Dev/Test**
-8. 
+8. Under **Settings** for **DB cluster identifier**, type ebdb
+9. Under **Credential Settings** enter the **Master username** and **Master password** - Note!
+10. Under **Instance configuration** select **DB instance class** to **Burstable classees (includes t classes) select **db.t3.small**
+11. Under **Availablity & durability**, **Multi-AZ deployment** - For HA high availablity, set this to **Create an Aurura Replica or Reader Node in a different AZ**
+12. 
