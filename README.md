@@ -43,5 +43,19 @@ Use Default VPC
 6. Under **Key pair (login**, select key pair
 7. Keep all other defaults
 8. Choose **Launch Instance**
+9. Select **Instance** and **Connect**
+10. Download WordPress from wordpress.org
+
+11. Download the configuration files from the sample repository
+
+12. Extract WordPress and change the name of the folder
+
+13. Extract the configuration files over the WordPress installation
+
+**Launch an Elastic Beanstalk environment**
+
+1. 
+
+
 
 
