@@ -44,6 +44,7 @@ Use Default VPC
 7. Keep all other defaults
 8. Choose **Launch Instance**
 9. Select **Instance** and **Connect**
+
 10. Download WordPress from wordpress.org
 
 ![image](https://user-images.githubusercontent.com/91480603/212140151-84b9a480-af9d-496e-97e4-bcdbb8025531.png)
