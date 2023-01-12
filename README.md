@@ -82,7 +82,7 @@ Add the security group of your DB instance to your running environment
 6. Choose **Apply** at the bottom of the page
 7. Read the warning, and then choose **Confirm**
 
-**configure environment properties for an Amazon RDS DB instance**
+**Configure environment properties for an Amazon RDS DB instance**
 
 
 
