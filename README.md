@@ -16,7 +16,7 @@ Use Default VPC
 6. Choose Templates - **Dev/Test**
 8. Under **Settings** for **DB cluster identifier**, type ebdb
 9. Under **Credential Settings** enter the **Master username** and **Master password** - Note!
-10. Under **Instance configuration** select **DB instance class** to **Burstable classees (includes t classes) select **db.t3.small**
+10. Under **Instance configuration** select **DB instance class** to **Burstable classes (includes t classes) select **db.t3.small**
 11. Under **Availablity & durability**, **Multi-AZ deployment** - For HA high availablity, set this to **Create an Aurura Replica or Reader Node in a different AZ**
 12. Under **Connectivity**, **Database authentication**, **Monitoring** keep all defaults
 13. Choose **Create database**
