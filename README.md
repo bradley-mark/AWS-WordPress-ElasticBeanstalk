@@ -157,6 +157,14 @@ Download wordpress-beanstalk.zip from EC2 to local disk using WinSCP
 5. Choose **Deploy**
 6. When the deployment completes, you can choose the site URL to open your website in a new tab
 
+**Install WordPress**
+
+1. Choose the environment URL to open your site in a browser. You are redirected to a WordPress installation wizard
+2. Perform a standard installation. The wp-config.php file is already present in the source code and configured to read the database connection information from the environment. You shouldn't be prompted to configure the connection
+
+**Update keys and salts**
+
+
 
 
 
