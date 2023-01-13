@@ -146,6 +146,8 @@ yum install tree
 
 **zip ../wordpress-beanstalk.zip -r * .[^.]***
 
+Download wordpress-beanstalk.zip from EC2 to local disk using WinSCP
+
 
 
 
