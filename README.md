@@ -134,13 +134,11 @@ yum install tree
 
 *.ebextensions/dev.config* – Restricts access to your environment to protect it during the WordPress installation process. Replace the placeholder IP address near the top of the file with the public IP address of the computer you'll use to access your environment's website to complete your WordPress installation.
 
-cd wordpress-beanstalk
+**cd wordpress-beanstalk**
 
 **nano .ebextensions/dev.config**
 
 *.ebextensions/efs-create.config* – Creates an EFS file system and mount points in each Availability Zone/subnet in your VPC. Identify your default VPC and subnet IDs in the Amazon VPC console
-
-cd wordpress-beanstalk
 
 **nano .ebextensions/efs-create.config**
 
