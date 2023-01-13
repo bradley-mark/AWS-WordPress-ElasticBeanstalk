@@ -148,6 +148,15 @@ yum install tree
 
 Download wordpress-beanstalk.zip from EC2 to local disk using WinSCP
 
+**Deploy source bundle**
+
+1. Open the Elastic Beanstalk console **https://console.aws.amazon.com/elasticbeanstalk**
+2. In the navigation pane, choose **Environments**, and then choose the name of your environment from the list
+3. On the environment overview page, choose **Upload and deploy**
+4. Use the on-screen dialog box to upload the source bundle
+5. Choose **Deploy**
+6. When the deployment completes, you can choose the site URL to open your website in a new tab
+
 
 
 
