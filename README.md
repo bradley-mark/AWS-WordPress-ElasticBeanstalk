@@ -144,7 +144,8 @@ yum install tree
 
 2. Create a source bundle containing the files in your project folder. The following command creates a source bundle named *wordpress-beanstalk.zip*.
 
-zip ../wordpress-beanstalk.zip -r * .[^.]*
+**zip ../wordpress-beanstalk.zip -r * .[^.]***
+
 
 
 
