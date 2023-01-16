@@ -114,8 +114,8 @@ Each platform runs a specific set of software, configuration files, and scripts 
 2. In the navigation pane, choose **Environments**, and then choose the name of your environment from the list
 3. In the navigation pane, choose **Configuration**
 4. In the **Software** configuration category, choose **Edit**
-5. In the **Environment properties** section, define the variables that your application reads to construct a connection string. For compatibility with environments that have an integrated RDS DB instance, use the following names and values. You can find all values, except for your password, in the RDS console
-6. Choose Apply
+5. In the **Environment properties** section, define the variables that your application reads to construct a connection string. 
+6. Choose **Apply**
 
 **Configure and deploy your application**
 
