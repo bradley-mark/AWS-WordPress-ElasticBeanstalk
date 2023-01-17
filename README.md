@@ -137,23 +137,25 @@ Verify that the structure of your wordpress-beanstalk folder is correct, as show
 
 ![image](https://user-images.githubusercontent.com/91480603/213000041-6ad9cc0f-a7a2-41e0-99e6-df7f22793b7e.png)
 
+The customized wp-config.php file from the project repo uses the environment variables that you defined. 
+
+The .ebextensions folder contains configuration files that create additional resources within your Elastic Beanstalk environment.
+
 **To update configuration files and create a source bundle**
 
 1. Modify the configuration files 
 
 *.ebextensions/dev.config* – Restricts access to your environment to protect it during the WordPress installation process. Replace the placeholder IP address near the top of the file with the public IP address of the computer you'll use to access your environment's website to complete your WordPress installation.
 
-**cd wordpress-beanstalk**
-
-**nano .ebextensions/dev.config**
+![image](https://user-images.githubusercontent.com/91480603/213000910-f5bddacf-f421-48f4-a6b7-5081b9e5d546.png)
 
 *.ebextensions/efs-create.config* – Creates an EFS file system and mount points in each Availability Zone/subnet in your VPC. Identify your default VPC and subnet IDs in the Amazon VPC console
 
-**nano .ebextensions/efs-create.config**
+![image](https://user-images.githubusercontent.com/91480603/213001033-f7cfdcdb-ae03-4786-8594-29943561e396.png)
 
 2. Create a source bundle containing the files in your project folder. The following command creates a source bundle named *wordpress-beanstalk.zip*.
 
-**zip ../wordpress-beanstalk.zip -r * .[^.]***
+![image](https://user-images.githubusercontent.com/91480603/213001333-c22c1f6b-9aba-4430-9bd8-05b4650e14b2.png)
 
 Download wordpress-beanstalk.zip from EC2 to local disk using WinSCP
 
@@ -164,14 +166,15 @@ Download wordpress-beanstalk.zip from EC2 to local disk using WinSCP
 3. On the environment overview page, choose **Upload and deploy**
 4. Use the on-screen dialog box to upload the source bundle
 5. Choose **Deploy**
-6. When the deployment completes, you can choose the site URL to open your website in a new tab
+6. When the deployment completes, you can choose the **Go to environment** to open your website URL in a new tab
 
 **Install WordPress**
 
-1. Choose the environment URL to open your site in a browser. You are redirected to a WordPress installation wizard
-2. Perform a standard installation. The wp-config.php file is already present in the source code and configured to read the database connection information from the environment. You shouldn't be prompted to configure the connection
+1. Choose the **Go to environment** to open your website URL in a browser. You are redirected to a WordPress installation wizard
+2. Perform a standard installation. 
 
 **Update keys and salts**
+
 
 
 
