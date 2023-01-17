@@ -149,9 +149,13 @@ The .ebextensions folder contains configuration files that create additional res
 
 ![image](https://user-images.githubusercontent.com/91480603/213000910-f5bddacf-f421-48f4-a6b7-5081b9e5d546.png)
 
+![image](https://user-images.githubusercontent.com/91480603/213015680-51902eca-9baf-4821-a5df-6bab57946365.png)
+
 *.ebextensions/efs-create.config* – Creates an EFS file system and mount points in each Availability Zone/subnet in your VPC. Identify your default VPC and subnet IDs in the Amazon VPC console
 
 ![image](https://user-images.githubusercontent.com/91480603/213001033-f7cfdcdb-ae03-4786-8594-29943561e396.png)
+
+![image](https://user-images.githubusercontent.com/91480603/213015714-ae17d2f6-0f97-435f-9c03-7907a5d75695.png)
 
 2. Create a source bundle containing the files in your project folder. The following command creates a source bundle named *wordpress-beanstalk.zip*.
 
@@ -164,8 +168,11 @@ Download wordpress-beanstalk.zip from EC2 to local disk using WinSCP
 1. Open the Elastic Beanstalk console **https://console.aws.amazon.com/elasticbeanstalk**
 2. In the navigation pane, choose **Environments**, and then choose the name of your environment from the list
 3. On the environment overview page, choose **Upload and deploy**
-4. Use the on-screen dialog box to upload the source bundle
-5. Choose **Deploy**
+
+![image](https://user-images.githubusercontent.com/91480603/213015839-72e47b99-ff59-4546-873d-589ba224e21b.png)
+
+5. Use the on-screen dialog box to upload the source bundle
+6. Choose **Deploy**
 
 ![image](https://user-images.githubusercontent.com/91480603/213015105-49c31353-af11-431d-8d0a-1c6bd3248834.png)
 
