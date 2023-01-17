@@ -44,7 +44,7 @@ Use Default VPC
 
 2. Download the configuration files from the sample repository
 
-![image](https://user-images.githubusercontent.com/91480603/212995605-815329f5-a496-4ea0-bc64-46de6c1663c6.png)
+![image](https://user-images.githubusercontent.com/91480603/212995855-94e5d28f-fe8a-4895-835d-3c7f0fcbc09e.png)
 
 3. Extract WordPress and change the name of the folder
 
