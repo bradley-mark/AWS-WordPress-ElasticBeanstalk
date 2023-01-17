@@ -85,7 +85,7 @@ Each platform runs a specific set of software, configuration files, and scripts 
 
 **AWS CloudFormation stack** – Elastic Beanstalk uses AWS CloudFormation to launch the resources in your environment and propagate configuration changes. The resources are defined in a template that you can view in the AWS CloudFormation console.
 
-**Domain name** – A domain name that routes to your web app in the form subdomain.region.elasticbeanstalk.com.
+**Domain name** – A domain name that routes to your web app in the form *subdomain.region.elasticbeanstalk.com*.
 
 **Configure security groups and environment properties**
 
