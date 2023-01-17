@@ -21,7 +21,7 @@ Use Default VPC
 9. Under **Credential Settings** enter the **Master username** ** and **Master password** ** - Note!
 10. Under **Instance configuration** select **DB instance class** to **Burstable classes (includes t classes)** select **db.t3.micro**
 11. Under **Connectivity**, **Database authentication**, **Monitoring** keep all defaults
-12. Click **Additional configuration** > **Database options** > **Initial database name** type ebdb
+12. Important Click **Additional configuration** > **Database options** > **Initial database name** type ebdb
 13. Choose **Create database**
 
 **Create Linux Instance**
