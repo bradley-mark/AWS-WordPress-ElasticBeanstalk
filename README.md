@@ -40,7 +40,7 @@ Use Default VPC
 
 1. Download WordPress from wordpress.org
 
-![image](https://user-images.githubusercontent.com/91480603/212995237-a63be204-1a56-4315-9999-0855e1d2b432.png)
+![image](https://user-images.githubusercontent.com/91480603/212995977-29f749a3-3aed-4d73-ba70-caba8d4d4e4e.png)
 
 2. Download the configuration files from the sample repository
 
