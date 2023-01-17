@@ -166,12 +166,15 @@ Download wordpress-beanstalk.zip from EC2 to local disk using WinSCP
 3. On the environment overview page, choose **Upload and deploy**
 4. Use the on-screen dialog box to upload the source bundle
 5. Choose **Deploy**
-6. When the deployment completes, you can choose the **Go to environment** to open your website URL in a new tab
+
+![image](https://user-images.githubusercontent.com/91480603/213015105-49c31353-af11-431d-8d0a-1c6bd3248834.png)
 
 **Install WordPress**
 
 1. Choose the **Go to environment** to open your website URL in a browser. You are redirected to a WordPress installation wizard
 2. Perform a standard installation. 
+
+![image](https://user-images.githubusercontent.com/91480603/213015351-1dc18808-7cb4-4641-9e91-11b03e0ebfa9.png)
 
 **Additional Actions**
 
