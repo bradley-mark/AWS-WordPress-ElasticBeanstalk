@@ -173,6 +173,8 @@ Download wordpress-beanstalk.zip from EC2 to local disk using WinSCP
 1. Choose the **Go to environment** to open your website URL in a browser. You are redirected to a WordPress installation wizard
 2. Perform a standard installation. 
 
+**Additional Actions**
+
 **Update keys and salts**
 
 The WordPress configuration file wp-config.php also reads values for keys and salts from environment properties. 
@@ -188,7 +190,31 @@ Currently, these properties are all set to test by the wordpress.config file in 
 
 6. Choose **Apply**
 
+**Remove access restrictions**
 
+The sample project includes the configuration file loadbalancer-sg.config. It creates a security group and assigns it to the environment's load balancer, using the IP address that you configured in dev.config. It restricts HTTP access on port 80 to connections from your network. Otherwise, an outside party could potentially connect to your site before you have installed WordPress and configured your admin account.
 
+**To remove the restriction and update your environment**
+1. Delete the .ebextensions/loadbalancer-sg.config file from your project directory.
 
+![image](https://user-images.githubusercontent.com/91480603/213013104-bbf0aeee-cdd3-4845-8f52-05991128f6ee.png)
+
+2. Create a new source bundle
+
+![image](https://user-images.githubusercontent.com/91480603/213013213-c98bf80d-49ec-4482-a13e-ee4e8c16c093.png)
+
+3. **Upload and deploy** new source bundle - v2
+
+**To configure your environment's Auto Scaling group for high availability**
+
+1. Open the Elastic Beanstalk console **https://console.aws.amazon.com/elasticbeanstalk**
+2. Choose **Environments**, and then choose the name of your environment from the list
+3. Choose **Configuration**
+4. Under **Capacity**, choose **Edit**
+5. In the **Auto scaling group**, set **Min instances to 2**
+6. Choose **Apply**
+
+**Clean up**
+
+Select and terminate both the Elastic Beanstalk environment and the RDS DB instance(s)
 
