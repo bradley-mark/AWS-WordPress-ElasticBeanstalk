@@ -29,7 +29,9 @@ Each platform runs a specific set of software, configuration files, and scripts 
 **Domain name** – A domain name that routes to your web app in the form *subdomain.region.elasticbeanstalk.com*.
 
 
-# Launch a DB instance in Amazon RDS in default VPC
+# Setup
+
+**Launch a DB instance in Amazon RDS in default VPC**
 
 **Create DB Instance**
 
