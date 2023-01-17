@@ -31,7 +31,7 @@ Use Default VPC
 3. Under **Name and tags**, type **Linux Server**
 4. Under **Application and OS Images (Amazon Machine Image)** select, **Amazon Linux** - **Amazon Linux 2 Kernel 5.10 AMI 2.0.20221210.1 x86_64 HVM gp2 - 64-bit (x86)**
 5. Under **Instance type** select, **t2.micro**
-6. Under **Key pair (login**, select key pair
+6. Under **Key pair (login)**, select key pair name
 7. Keep all other defaults
 8. Choose **Launch Instance**
 9. Select **Instance** and **Connect**
