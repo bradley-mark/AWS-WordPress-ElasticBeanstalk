@@ -246,7 +246,7 @@ Replace hostname, username, password
 
 Copy/paste save file testconnection.php in /var/www/html
 
-![image](https://user-images.githubusercontent.com/91480603/213018999-1b116ced-1fc1-441d-aac8-224a634058ac.png)
+![image](https://user-images.githubusercontent.com/91480603/213024382-75bf3910-1530-4a61-b17d-3b2da58e9f98.png)
 
 ![image](https://user-images.githubusercontent.com/91480603/213016897-b68f25c7-28b4-4e3d-b350-71fc6bb9ad6e.png)
 
