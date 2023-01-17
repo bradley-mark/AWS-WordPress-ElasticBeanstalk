@@ -54,7 +54,7 @@ Use Default VPC
 
 4. Extract the configuration files over the WordPress installation
 
-![image](https://user-images.githubusercontent.com/91480603/212140354-879fe60e-0e65-4f1b-a266-3d9898b5a44e.png)
+![image](https://user-images.githubusercontent.com/91480603/212997164-b6c12d10-7f9f-400e-abe9-cc241052083c.png)
 
 **Launch an Elastic Beanstalk environment**
 
