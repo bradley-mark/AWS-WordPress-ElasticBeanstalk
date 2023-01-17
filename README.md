@@ -228,3 +228,43 @@ The sample project includes the configuration file loadbalancer-sg.config. It cr
 
 Select and terminate both the Elastic Beanstalk environment and the RDS DB instance(s)
 
+**Troubleshooting**
+
+*PHP Compatibility and WordPress*
+**https://make.wordpress.org/core/handbook/references/php-compatibility-and-wordpress-versions/**
+
+![image](https://user-images.githubusercontent.com/91480603/213018103-c2fcbc8b-2cd6-43bc-88a2-f787b7d80325.png)
+
+Test check RDS DB connection using Linux server
+
+**Create testconnection.php file**
+
+![image](https://user-images.githubusercontent.com/91480603/213017065-5e555282-ba47-4dbd-91ab-dff9c255f704.png)
+
+Replace hostname, username, password c
+
+Copy/paste save file testconnection.php in /var/www/html
+
+<?php
+$link = mysqli_connect('hostname', 'username', 'password');
+if (!$link) {
+die('Could not connect: ' . mysqli_error());
+}
+echo 'Connected successfully';
+mysqli_close($link);
+?>
+
+![image](https://user-images.githubusercontent.com/91480603/213016897-b68f25c7-28b4-4e3d-b350-71fc6bb9ad6e.png)
+
+Create phpinfo.php file
+
+![image](https://user-images.githubusercontent.com/91480603/213017725-7d3cc8d6-2856-47b8-b892-1a4f664ee351.png)
+
+![image](https://user-images.githubusercontent.com/91480603/213017775-af2c41c3-1400-478e-bd33-8c77079f1a80.png)
+
+Check RDS DB Instance has DB name
+
+![image](https://user-images.githubusercontent.com/91480603/213017918-fee407af-edb4-4a1d-95df-1982d6c42036.png)
+
+
+
