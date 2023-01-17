@@ -18,7 +18,7 @@ Use Default VPC
 6. Choose Templates - **Dev/Test**
 7. Under **Availablity & durability**, choose **Multi-AZ DB instance** 
 8. Under **Settings** for **DB instance identifier**, type ebdb
-9. Under **Credential Settings** enter the **Master username** and **Master password** - Note!
+9. Under **Credential Settings** enter the **Master username** **and **Master password** **- Note!
 10. Under **Instance configuration** select **DB instance class** to **Burstable classes (includes t classes) select **db.t3.micro**
 11. Under **Connectivity**, **Database authentication**, **Monitoring** keep all defaults
 12. Click **Additional configuration** > **Database options** > **Initial database name** type ebdb
