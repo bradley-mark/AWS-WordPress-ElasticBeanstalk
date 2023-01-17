@@ -48,6 +48,9 @@ Use Default VPC
 
 3. Extract WordPress and change the name of the folder
 
+![image](https://user-images.githubusercontent.com/91480603/212996449-a32d38bc-4c54-40c1-86bf-61d1607bbdc2.png)
+
+
 ![image](https://user-images.githubusercontent.com/91480603/212140276-4775efcb-21a9-442f-9dcd-f21cec47334d.png)
 
 4. Extract the configuration files over the WordPress installation
