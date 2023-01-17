@@ -234,6 +234,7 @@ Select and terminate both the Elastic Beanstalk environment and the RDS DB insta
 # Troubleshooting
 
 *PHP Compatibility and WordPress*
+
 **https://make.wordpress.org/core/handbook/references/php-compatibility-and-wordpress-versions/**
 
 ![image](https://user-images.githubusercontent.com/91480603/213018103-c2fcbc8b-2cd6-43bc-88a2-f787b7d80325.png)
