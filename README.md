@@ -175,7 +175,18 @@ Download wordpress-beanstalk.zip from EC2 to local disk using WinSCP
 
 **Update keys and salts**
 
+The WordPress configuration file wp-config.php also reads values for keys and salts from environment properties. 
+Currently, these properties are all set to test by the wordpress.config file in the .ebextensions folder.
 
+1. Open the Elastic Beanstalk console **https://console.aws.amazon.com/elasticbeanstalk**
+2. Choose **Environments**, and then choose the name of your environment from the list
+3. Choose **Configuration**
+4. Under **Software**, choose **Edit**
+5. In the **Environment properties**, modify the following properties:
+
+![image](https://user-images.githubusercontent.com/91480603/213006525-9107ca9d-bb4f-4a0f-8704-d33b604e2845.png)
+
+6. Choose **Apply**
 
 
 
