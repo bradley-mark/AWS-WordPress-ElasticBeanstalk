@@ -1,0 +1,27 @@
+AWS EC2 Linux Test Server
+
+<Install Apache>
+
+sudo su
+yum install httpd -y
+service httpd start
+service httpd status
+
+<Install PHP 8.0>
+
+sudo amazon-linux-extras | grep php
+sudo amazon-linux-extras disable php7.4
+sudo amazon-linux-extras disable php8.1
+sudo amazon-linux-extras enable php8.0
+
+sudo yum install php-{pear,cgi,pdo,common,curl,mbstring,gd,mysqlnd,gettext,bcmath,json,xml,fpm,intl,zip}
+
+<Install WordPress 6.0.3>
+
+wget https://wordpress.org/wordpress-6.0.3.tar.gz
+tar -xzf wordpress-6.0.3.tar.gz
+cp -r wordpress/* /var/www/html/
+cd /var/www/html
+nano wp-config-sample.php
+
+Edit>Save wp-config.php
