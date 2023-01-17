@@ -50,8 +50,7 @@ Use Default VPC
 
 ![image](https://user-images.githubusercontent.com/91480603/212996449-a32d38bc-4c54-40c1-86bf-61d1607bbdc2.png)
 
-
-![image](https://user-images.githubusercontent.com/91480603/212140276-4775efcb-21a9-442f-9dcd-f21cec47334d.png)
+![image](https://user-images.githubusercontent.com/91480603/212996631-15cdab40-3f98-4d50-be99-1dce9b9c3100.png)
 
 4. Extract the configuration files over the WordPress installation
 
