@@ -6,6 +6,29 @@ Deploying a high-availability WordPress website with an external Amazon RDS data
 
 Use Default VPC
 
+**Elastic Beanstalk created resources**
+  
+**EC2 instance** – An Amazon Elastic Compute Cloud (Amazon EC2) virtual machine configured to run web apps on the platform that you choose.
+
+Each platform runs a specific set of software, configuration files, and scripts to support a specific language version, framework, web container, or combination of these. Most platforms use either Apache or NGINX as a reverse proxy that sits in front of your web app, forwards requests to it, serves static assets, and generates access and error logs.
+
+**Instance security group** – An Amazon EC2 security group configured to allow inbound traffic on port 80. This resource lets HTTP traffic from the load balancer reach the EC2 instance running your web app. By default, traffic isn't allowed on other ports.
+
+**Load balancer** – An Elastic Load Balancing load balancer configured to distribute requests to the instances running your application. A load balancer also eliminates the need to expose your instances directly to the internet.
+
+**Load balancer security group** – An Amazon EC2 security group configured to allow inbound traffic on port 80. This resource lets HTTP traffic from the internet reach the load balancer. By default, traffic isn't allowed on other ports.
+
+**Auto Scaling group** – An Auto Scaling group configured to replace an instance if it is terminated or becomes unavailable.
+
+**Amazon S3 bucket** – A storage location for your source code, logs, and other artifacts that are created when you use Elastic Beanstalk.
+
+**Amazon CloudWatch alarms** – Two CloudWatch alarms that monitor the load on the instances in your environment and that are triggered if the load is too high or too low. When an alarm is triggered, your Auto Scaling group scales up or down in response.
+
+**AWS CloudFormation stack** – Elastic Beanstalk uses AWS CloudFormation to launch the resources in your environment and propagate configuration changes. The resources are defined in a template that you can view in the AWS CloudFormation console.
+
+**Domain name** – A domain name that routes to your web app in the form *subdomain.region.elasticbeanstalk.com*.
+
+
 # Launch a DB instance in Amazon RDS in default VPC
 
 **Create DB Instance**
@@ -65,28 +88,6 @@ Use Default VPC
 4. Choose **Review and launch**
 5. Review the available options. Choose the available option you want to use, and when you're ready, choose **Create app**
 
-**Elastic Beanstalk created resources**
-  
-**EC2 instance** – An Amazon Elastic Compute Cloud (Amazon EC2) virtual machine configured to run web apps on the platform that you choose.
-
-Each platform runs a specific set of software, configuration files, and scripts to support a specific language version, framework, web container, or combination of these. Most platforms use either Apache or NGINX as a reverse proxy that sits in front of your web app, forwards requests to it, serves static assets, and generates access and error logs.
-
-**Instance security group** – An Amazon EC2 security group configured to allow inbound traffic on port 80. This resource lets HTTP traffic from the load balancer reach the EC2 instance running your web app. By default, traffic isn't allowed on other ports.
-
-**Load balancer** – An Elastic Load Balancing load balancer configured to distribute requests to the instances running your application. A load balancer also eliminates the need to expose your instances directly to the internet.
-
-**Load balancer security group** – An Amazon EC2 security group configured to allow inbound traffic on port 80. This resource lets HTTP traffic from the internet reach the load balancer. By default, traffic isn't allowed on other ports.
-
-**Auto Scaling group** – An Auto Scaling group configured to replace an instance if it is terminated or becomes unavailable.
-
-**Amazon S3 bucket** – A storage location for your source code, logs, and other artifacts that are created when you use Elastic Beanstalk.
-
-**Amazon CloudWatch alarms** – Two CloudWatch alarms that monitor the load on the instances in your environment and that are triggered if the load is too high or too low. When an alarm is triggered, your Auto Scaling group scales up or down in response.
-
-**AWS CloudFormation stack** – Elastic Beanstalk uses AWS CloudFormation to launch the resources in your environment and propagate configuration changes. The resources are defined in a template that you can view in the AWS CloudFormation console.
-
-**Domain name** – A domain name that routes to your web app in the form *subdomain.region.elasticbeanstalk.com*.
-
 **Configure security groups and environment properties**
 
 **Modify the inbound rules on the security group that's attached to your RDS instance**
@@ -129,6 +130,7 @@ Each platform runs a specific set of software, configuration files, and scripts 
 Login to Linux Instance with WordPress installed
 
 **Install tree**
+
 ![image](https://user-images.githubusercontent.com/91480603/212999810-bd4f0c5b-05c0-4431-b4b1-15307d87d323.png)
 
 Verify that the structure of your wordpress-beanstalk folder is correct, as shown
