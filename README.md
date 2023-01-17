@@ -91,15 +91,17 @@ Each platform runs a specific set of software, configuration files, and scripts 
 
 **Modify the inbound rules on the security group that's attached to your RDS instance**
 
-1. Choose the name of your DB instance to view its details
-2. In the **Connectivity** section, make a note of the Subnets, Security groups, and Endpoint that are displayed on this page
-3. Under **Security**, you can see the security group that's associated with the DB instance. Open the link to view the security group in the Amazon EC2 console
-4. In the security group details, choose **Inbound rules**
-5. Choose **Edit inbound rules**
-6. Choose **Add Rule**
-7. For **Type**, choose the DB engine that your application uses - Choose **MYSQL/Aurura**
-8. For **Source**, type **sg-** to view a list of available security groups. Choose the security group that's associated with the Auto Scaling group that's used with your Elastic Beanstalk environment. This is so that Amazon EC2 instances in the environment can have access to the database
-9. Choose **Save**
+1. Open the RDS console https://console.aws.amazon.com/rds/home
+2. Choose **Databases** 
+3. Choose the name of your DB instance to view its details
+4. In the **Connectivity** section, make a note of the Subnets, Security groups, and Endpoint that are displayed on this page
+5. Under **Security**, you can see the security group that's associated with the DB instance. Open the link to view the security group in the Amazon EC2 console
+6. In the security group details, choose **Inbound rules**
+7. Choose **Edit inbound rules**
+8. Choose **Add Rule**
+9. For **Type**, choose the DB engine that your application uses - Choose **MYSQL/Aurura**
+10. For **Source**, type **sg-** to view a list of available security groups. Choose the security group that's associated with the Auto Scaling group that's used with your Elastic Beanstalk environment. This is so that Amazon EC2 instances in the environment can have access to the database
+11. Choose **Save**
 
 **Add the security group of your DB instance to your running environment**
 
@@ -120,16 +122,18 @@ Each platform runs a specific set of software, configuration files, and scripts 
 5. In the **Environment properties** section, define the variables that your application reads to construct a connection string. 
 6. Choose **Apply**
 
+![image](https://user-images.githubusercontent.com/91480603/212999355-a8d5a37e-1a80-4b13-933a-36733cda8e93.png)
+
 **Configure and deploy your application**
 
 Login to Linux Instance with WordPress installed
 
 **Install tree**
-yum install tree
+![image](https://user-images.githubusercontent.com/91480603/212999810-bd4f0c5b-05c0-4431-b4b1-15307d87d323.png)
 
-1. Verify that the structure of your wordpress-beanstalk folder is correct, as shown
+Verify that the structure of your wordpress-beanstalk folder is correct, as shown
 
-**tree -aL 1**
+![image](https://user-images.githubusercontent.com/91480603/213000041-6ad9cc0f-a7a2-41e0-99e6-df7f22793b7e.png)
 
 **To update configuration files and create a source bundle**
 
