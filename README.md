@@ -4,7 +4,7 @@ Deploying a high-availability WordPress website with an external Amazon RDS data
 
 **Overview and High Level Design**
 
-Use Default VPC
+![image](https://user-images.githubusercontent.com/91480603/213237439-4afbac87-2017-4486-8278-243617b30dd9.png)
 
 **Elastic Beanstalk created resources**
   
