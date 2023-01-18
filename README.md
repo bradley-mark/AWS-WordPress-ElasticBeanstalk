@@ -176,7 +176,7 @@ Download wordpress-beanstalk.zip from EC2 to local disk using WinSCP
 5. Use the on-screen dialog box to upload the source bundle
 6. Choose **Deploy**
 
-![image](https://user-images.githubusercontent.com/91480603/213015105-49c31353-af11-431d-8d0a-1c6bd3248834.png)
+![image](https://user-images.githubusercontent.com/91480603/213246301-284f029b-5d0a-49d2-8126-90ac8c2de215.png)
 
 **Install WordPress**
 
