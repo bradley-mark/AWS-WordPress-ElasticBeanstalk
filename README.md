@@ -261,8 +261,6 @@ Copy/paste save file testconnection.php in /var/www/html
 
 ![image](https://user-images.githubusercontent.com/91480603/213017725-7d3cc8d6-2856-47b8-b892-1a4f664ee351.png)
 
-![image](https://user-images.githubusercontent.com/91480603/213024734-284bd62f-1d93-41bd-a778-e22879624782.png)
-
 ![image](https://user-images.githubusercontent.com/91480603/213017775-af2c41c3-1400-478e-bd33-8c77079f1a80.png)
 
 **Check RDS DB Instance has DB name**
